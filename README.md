@@ -19,11 +19,6 @@ A multi-page website showcasing cities in South Carolina, including population d
 
 ---
 
-## 📸 Preview
-(Add screenshots here later if you want)
-
----
-
 ## 🌐 Live Website
 👉 https://your-username.github.io/sc-state-website/
 
