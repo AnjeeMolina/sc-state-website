@@ -1,0 +1,214 @@
+/* Body contains one font family Declaration */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Element Selector */
+h3 {
+    color: red;
+    text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+/* Style the links inside the navigation bar and Float Property */
+.navbar a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* A:Hover Tag Added Below */
+.navbar a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Relative positioning Added Below */
+.container {
+    position: relative;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ID Selector Used to Format Specific elemnts on a Page */
+#section_home {
+    flex: 1;
+    padding: 5px 35px;
+    color: darkblue;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#section_home ol li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Absolute positioning Added Below*/
+aside {
+    position: absolute;
+    top: 100px;
+    right: 350px;
+    display: flex;
+    gap: 30px;
+    width: auto;
+    max-width: 320px;
+}
+
+.city-populations{
+    background-color: #f9f9f9;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-width: 280px;
+}
+
+table, th, td {
+    margin: 20px;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.fun-facts {
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-width: 280px;
+
+}
+
+.columbia-fun-facts {
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-width: 500px;
+    font-size: 125%;
+}
+
+.columbia-fun-facts ul li {
+    margin-bottom: 10px;
+}
+
+.charleston-fun-facts {
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-width: 500px;
+    font-size: 125%;
+}
+
+.charleston-fun-facts ul li {
+    margin-bottom: 10px;
+}
+
+.myrtle-fun-facts {
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-width: 500px;
+    font-size: 125%;
+}
+
+.myrtle-fun-facts ul li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    aside {
+        position: static;
+        width: 100%;
+        margin-top: 20px; 
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    #section_home {
+        padding: 5px 20px;
+}
+}
+
+#userForm{
+    flex: 1;
+    padding: 5px 35px;
+    margin-top: 20px;
+    color: darkblue;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+}
+
+.contact-image {
+    width: 45%;
+    height: auto;
+    float: right; 
+    margin-top: 0px;
+}
+
+a {
+    color: #336699;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ff6600;
+  }
