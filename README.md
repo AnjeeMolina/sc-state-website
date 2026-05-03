@@ -16,12 +16,7 @@ A multi-page website showcasing cities in South Carolina, including population d
 - HTML
 - CSS
 - JavaScript
-
----
-
-## 🌐 Live Website
-👉 https://anjeemolina.github.io/sc-state-website/
-
+  
 ---
 
 ## 📚 What I Learned
